@@ -1,10 +1,13 @@
-<html>
-    <head>
-        <link real="stylesheet" href="style.css"></link>
-    </head>
+import React from "react"
+import ReactDOM from "react-dom"
 
-    <body>
-        <div id="root"></div>
-        <script src="index.pack.js"></script>
-    </body>
-</html>
+function App() {
+    return (
+        <div> className="contact-card"
+
+        </div>
+    )
+}
+
+ReactDOM.render(<App />, document.getElementById("root"));
+
