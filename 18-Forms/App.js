@@ -23,11 +23,13 @@ class App extends React.Component {
                 <input 
                 type="text" 
                 name="firstName"
+                value={this.state.firstName}
                 placeholder="first name" 
                 onChange={this.handleChange}/>
 
                 <input type="text"
                 name="lastName"
+                value={this.state.lastName}
                 placeholder="last name"
                 onChange={this.handleChange}/>
 
