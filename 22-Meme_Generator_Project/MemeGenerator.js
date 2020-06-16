@@ -56,8 +56,7 @@ class MemeGenerator extends React.Component {
                     name="bottomText"
                     placeholder="Bottom Text"
                     value={this.state.bottomText}
-                    onChange={this.handleChange} />
-
+S
                     <button>Gen</button>
                 </form>
 
