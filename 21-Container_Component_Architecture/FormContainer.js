@@ -38,7 +38,8 @@ class Form extends Component {
                 handleChange={this.handleChange}
                 data={this.state}
             />
-        )}
+        )
+    }
 }
 
 export default Form
