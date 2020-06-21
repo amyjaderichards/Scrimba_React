@@ -10,7 +10,6 @@ class App extends React.Component {
             gender: "",
             favColour: "green"
         }
-
         this.handleChange = this.handleChange.bind(this)
     }
 
@@ -21,7 +20,6 @@ class App extends React.Component {
             [name]: value
         })
     }
-
 
     render() {
         return (
