@@ -31,4 +31,5 @@ function Paint() {
   );
 }
 
+
 export default Paint;
