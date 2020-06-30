@@ -14,5 +14,5 @@ File 27 is the code for the Paint App made using the [Learn React Hooks](https:/
 ## Setup
 
 ## ToDo
-- Haven't finished the Paint App yet
+- Paint app needs some minor fixes (squares instead of radio buttons)
 - npm start enabled
