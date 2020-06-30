@@ -1,12 +1,8 @@
-import React, { useState, useEffect } from "react";
-import randomColor from "randomcolor";
+import React, { useState, useEffect } from 'react'
+import randomColor from 'randomcolor'
 
-export default function ColorPicker({
-  colors = [],
-  activeColor,
-  setActiveColor,
-}) {
-  if (!colors.length) return null;
+export default function ColorPicker({ colors = [], activeColor, setActiveColor }) {
+  if (!colors.length) return null
   return (
     <fieldset className="color-picker">
       {colors.map((color, i) => (
@@ -22,5 +18,5 @@ export default function ColorPicker({
         </label>
       ))}
     </fieldset>
-  );
+  )
 }
