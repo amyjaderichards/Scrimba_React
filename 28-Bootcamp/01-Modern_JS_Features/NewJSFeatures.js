@@ -3,11 +3,9 @@ import React, {Component} from "react"
 class NewJSFeatures extends Component {
     constructor() {
         super()
-        this.state = {
+        state = {
             count: 0
         }
-        this.increment = this.increment.bind(this)
-        this.decrement = this.decrement.bind(this)
     }
     
     // You can use arrow functions for class methods
