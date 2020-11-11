@@ -1,12 +1,12 @@
-import React from "react"
-import Child from "./Child"
+import React from "react";
+import Child from "./Child";
 
 function App() {
     return (
-        <div>
+        <Fragment>
             <Child />
-        </div>
+        </Fragment>
     )
 }
 
-export default App
+export default App;
